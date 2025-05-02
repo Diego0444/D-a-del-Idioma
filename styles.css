@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #a129f1;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.encabezado-imagen {
+    max-width: 150px;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.imagen-responsive {
+    max-width: 20%; 
+    height: auto;    
+    display: block;  
+    
+  }
+
+.imagenes-historia {
+    display: flex;
+    gap: 10px; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+}
+
+.imagen-responsive {
+    max-width: 45%; 
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.double-column {
+    display: flex;
+    gap: 20px;
+}
+
+.double-column > div {
+    flex: 1;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid rgb(147, 40, 247);
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+footer {
+    background: #9e19f7;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input, form textarea, form button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background: #9018f3;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #17aaee;
+}
